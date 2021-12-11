@@ -1,5 +1,7 @@
 # android_practice
 
+課程:行動裝置程式設計 作業、期中期末考
+
 ## 成果展示
 <table>
   <tr>
