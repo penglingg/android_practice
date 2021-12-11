@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="216dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.245"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="set"
+        app:layout_constraintStart_toStartOf="@+id/b2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="clear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/b1"
+        android:layout_marginRight="8dp" />
+
+    <Button
+        android:id="@+id/t1"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="TextSize ++"
+        app:layout_constraintEnd_toStartOf="@+id/t2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
+
+    <Button
+        android:id="@+id/t2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="156dp"
+        android:text="TextSize --"
+        app:layout_constraintBaseline_toBaselineOf="@+id/t1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="156dp" />
+
+    <Button
+        android:id="@+id/r1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Reverse Display"
+        android:textSize="10sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/t2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/t2" />
+
+    <Button
+        android:id="@+id/bred"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="red"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        android:layout_marginLeft="8dp" />
+
+    <Button
+        android:id="@+id/boran"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Orange"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bred"
+        app:layout_constraintStart_toEndOf="@+id/bred" />
+
+    <Button
+        android:id="@+id/bgreen"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Green"
+        app:layout_constraintBottom_toBottomOf="@+id/boran"
+        app:layout_constraintStart_toEndOf="@+id/boran" />
+
+    <Button
+        android:id="@+id/bbrown"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Brown"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bblue"
+        app:layout_constraintStart_toEndOf="@+id/bblue" />
+
+    <Button
+        android:id="@+id/bblue"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:text="Blue"
+        app:layout_constraintBottom_toBottomOf="@+id/bgreen"
+        app:layout_constraintStart_toEndOf="@+id/bgreen" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="289dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgreen"
+        app:layout_constraintVertical_bias="0.346" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
