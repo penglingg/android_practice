@@ -21,6 +21,6 @@
     <td align="center"><img src="https://github.com/penglingg/android_practice/blob/main/appmove.gif" width="150"></td>
     <td align="center"><img src="https://github.com/penglingg/android_practice/blob/main/midterm.gif" width="150"></td>
     <td align="center"><img src="https://github.com/penglingg/android_practice/blob/main/intent_practice.gif" width="150"></td>
-    <td align="center"><img src="https://github.com/penglingg/android_practice/blob/main/.gif" width="150"></td>
+    <td align="center"><img src="https://github.com/penglingg/android_practice/blob/main/final_exam.gif" width="150"></td>
   </tr>
 </table>
